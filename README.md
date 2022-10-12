@@ -1,16 +1,13 @@
 <div align="center">
 
-# exa
+# `exa`
 
-[exa](https://the.exa.website/) is a modern replacement for _ls_.
-
-**README Sections:** [Options](#options) — [Installation](#installation) — [Development](#development)
+`exa` is a modern replacement for _ls_.
 
 [![Unit tests](https://github.com/ogham/exa/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/ogham/exa/actions/workflows/unit-tests.yml)
-[![Say thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ogham%40bsago.me)
 </div>
 
-![Screenshots of exa](screenshots.png)
+![Screenshots of exa](assets/readme_main.png)
 
 ---
 
@@ -20,7 +17,7 @@ It knows about symlinks, extended attributes, and Git.
 And it’s **small**, **fast**, and just **one single binary**.
 
 By deliberately making some decisions differently, exa attempts to be a more featureful, more user-friendly version of `ls`.
-For more information, see [exa’s website](https://the.exa.website/).
+For more information, see [exa’s website](https://exa-rs.github.io/).
 
 
 ---
@@ -100,78 +97,6 @@ Some of the options accept parameters:
 
 exa is available for macOS and Linux.
 More information on how to install exa is available on [the Installation page](https://the.exa.website/install).
-
-### Alpine Linux
-
-On Alpine Linux, [enable community repository](https://wiki.alpinelinux.org/wiki/Enable_Community_Repository) and install the [`exa`](https://pkgs.alpinelinux.org/package/edge/community/x86_64/exa) package.
-
-    apk add exa
-
-### Arch Linux
-
-On Arch, install the [`exa`](https://www.archlinux.org/packages/community/x86_64/exa/) package.
-
-    pacman -S exa
-
-### Android / Termux
-
-On Android / Termux, install the [`exa`](https://github.com/termux/termux-packages/tree/master/packages/exa) package.
-
-    pkg install exa
-
-### Debian
-
-On Debian, install the [`exa`](https://packages.debian.org/stable/exa) package.
-
-    apt install exa
-
-### Fedora
-
-On Fedora, install the [`exa`](https://src.fedoraproject.org/modules/exa) package.
-
-    dnf install exa
-
-### Gentoo
-
-On Gentoo, install the [`sys-apps/exa`](https://packages.gentoo.org/packages/sys-apps/exa) package.
-
-    emerge sys-apps/exa
-
-### Homebrew
-
-If you’re using [Homebrew](https://brew.sh/) on macOS, install the [`exa`](http://formulae.brew.sh/formula/exa) formula.
-
-    brew install exa
-
-### MacPorts
-
-If you're using [MacPorts](https://www.macports.org/) on macOS, install the [`exa`](https://ports.macports.org/port/exa/summary) port.
-
-    port install exa
-
-### Nix
-
-On nixOS, install the [`exa`](https://github.com/NixOS/nixpkgs/blob/master/pkgs/tools/misc/exa/default.nix) package.
-
-    nix-env -i exa
-
-### openSUSE
-
-On openSUSE, install the [`exa`](https://software.opensuse.org/package/exa) package.
-
-    zypper install exa
-
-### Ubuntu
-
-On Ubuntu 20.10 (Groovy Gorilla) and later, install the [`exa`](https://packages.ubuntu.com/jammy/exa) package.
-
-    sudo apt install exa
-
-### Void Linux
-
-On Void Linux, install the [`exa`](https://github.com/void-linux/void-packages/blob/master/srcpkgs/exa/template) package.
-
-    xbps-install -S exa
 
 ### Manual installation from GitHub
 
