@@ -19,6 +19,10 @@ And it’s **small**, **fast**, and just **one single binary**.
 By deliberately making some decisions differently, exa attempts to be a more featureful, more user-friendly version of `ls`.
 For more information, see [exa’s website](https://exa-rs.github.io/).
 
+### Why this org ?
+
+This organisation has been setup because of the lack of activity of the maintainer.
+You can see the original repo at [ogham/exa](https://github.com/ogham/exa).
 
 ---
 
